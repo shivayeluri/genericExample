@@ -6,9 +6,8 @@ public class Main {
         Float[] floatArray1 = {1.0f, 2.0f, 3.4f, 5.6f, 4.9f};
         Double[] doubleArray = {9.0, 8.6};
 
-        new GenericExample().printArray(array1);
-        new GenericExample().printArray(floatArray1);
-        new GenericExample().printArray(doubleArray);
+        new GenericExample<>(array1);
+        new GenericExample<>(floatArray1);
+        new GenericExample<>(doubleArray);
     }
-
 }
